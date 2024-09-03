@@ -1,0 +1,37 @@
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suranna&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Suranna&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruluko&family=Suranna&family=VT323&display=swap');
+
+:root{
+    --fundo: #010510;
+    --branco: #fff;
+    --nav-rosa: #F263A6;
+    --back: #F2D49B;
+    --fonte-surana: "Suranna";
+    --fonte-VT323: "VT323";
+    --fonte-poppins: "Poppins";
+    --fonte-ruluko: "Ruluko";
+}
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-wrap: wrap;
+    background: var(--fundo);
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: var(--branco);
+}
